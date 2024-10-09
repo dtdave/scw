@@ -10,16 +10,6 @@ Overview
     *   [Azure](#Azure)
     *   [GCLOUD](#GCLOUD)
 
-On this page
-------------
-
-*   [Overview](#Overview)
-*   [About](#About)
-*   [Prerequisites](#Prerequisites)
-*   [Usage](#Usage)
-    *   [AWS](#AWS)
-    *   [Azure](#Azure)
-    *   [GCLOUD](#GCLOUD)
 
 Pepper
 ======
