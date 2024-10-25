@@ -1,21 +1,19 @@
-<a name="Overview"></a>
 Overview
 =====
 
-*   [Overview](#Overview)
-*   [About](#About)
-*   [Prerequisites](#Prerequisites)
-*   [Usage](#Usage)
-    *   [AWS](#AWS)
-    *   [Azure](#Azure)
-    *   [GCLOUD](#GCLOUD)
+*   [Overview](#overview)
+*   [About](#about)
+*   [Prerequisites](#prerequisites)
+*   [Usage](#usage)
+    *   [AWS](#aws)
+    *   [Azure](#azure)
+    *   [GCP](#gcp)
 
 
 Pepper
 ======
 
 
-<a name="About"></a>
 About
 -----
 
@@ -23,13 +21,13 @@ Pepper quickly deploys kubernetes and real-world sample applications on your cho
 Pepper shows every step along with the exact command it runs on your behalf.  
 You’ll get a useful kubernetes installation very quickly while seeing how to do it yourself.
 
-<a name="Prerequisites"></a>
+
 Prerequisites
 -------------
 
 You’ll need the ability to use the cloud shell of your chosen cloud provider or be able to connect with a local terminal.
 
-<a name="Usage"></a>
+
 Usage
 -----
 
@@ -45,19 +43,19 @@ Supported options:
 *   `-v` Show trivial/verbose commands. Chatty, but good feedback when modifying Pepper.
 *   `-h` Shows all options.
 
-<a name="AWS"></a>
+
 ### AWS
 
 *   You’ll need access to an AWS region where you are able to create an EKS clusters.
 *   If using your terminal to connect you’ll need an IAM token and secret.
 
-<a name="Azure"></a>
+
 ### Azure
 
 *   You will need to be able to create a resource group and an AKS cluster.
 
-<a name="GCLOUD"></a>
-### GCLOUD
+
+### GCP
 
 *   You will need access to an account with an existing project.
 *   You’ll need the ability to create a GKE cluster within that project.
