@@ -1,11 +1,8 @@
-# Website
+# Overview
 
-Notes below on using Git Secrets to prevent token commits.
+This repo contains resources from SCW including Pepper which is a program able to deploy a Kubernetes cluster to any of the major cloud providers like AWS, Azure, and GCP for use in demo or workshop environments.
 
-## Git Secrets
+## Pepper Deployment
+Documentation on how to deploy Pepper can be found [here.](https://github.com/dtdave/scw/blob/Main/docs/pepper/pepper.md)
 
-https://github.com/awslabs/git-secrets
 
-After installation, use these lines to setup:
-git secrets --add "dt0c 01" (without the space :) )
-git secrets --add -a --literal "dt0c01.{80}"
